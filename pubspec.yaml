@@ -11,7 +11,7 @@ dependencies:
     sdk: flutter
 
 
-  # ✅ Upgrade Firebase to latest stable (all must match core ^3.x)
+
   firebase_core: ^3.6.0
   firebase_auth: ^5.3.1
   cloud_firestore: ^5.4.4
@@ -38,7 +38,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0   # latest lint rules
+  flutter_lints: ^4.0.0   git add .
 
 flutter:
   uses-material-design: true
