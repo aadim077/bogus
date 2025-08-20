@@ -27,7 +27,7 @@ class ProfileScreen extends StatelessWidget {
     final auth = Provider.of<AuthService>(context, listen: false);
 
     return Scaffold(
-      backgroundColor: primaryColor, // Set the background color
+      backgroundColor: primaryColor,
       appBar: AppBar(
         title: const Text("Profile", style: TextStyle(color: textColor)),
         backgroundColor: primaryColor,

@@ -37,6 +37,6 @@ class FCMServices {
     log('Received FCM message title : ${message.notification?.title}');
     log('Received FCM message body: ${message.notification?.body}');
     await NotificationService().showNotification(message: message);
-    // You can extend this to show local notifications
+
   }
 }

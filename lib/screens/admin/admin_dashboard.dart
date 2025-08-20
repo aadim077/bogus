@@ -31,7 +31,7 @@ class CustomPieChart extends StatelessWidget {
             child: Stack(
               alignment: Alignment.center,
               children: [
-                // Inner circle to create the "donut" effect
+
                 Container(
                   width: 100,
                   height: 100,
@@ -40,7 +40,7 @@ class CustomPieChart extends StatelessWidget {
                     shape: BoxShape.circle,
                   ),
                 ),
-                // This is a simplified "pie chart" using a custom painter
+
                 CustomPaint(
                   size: const Size(150, 150),
                   painter: _PieChartPainter(),
@@ -84,14 +84,14 @@ class CustomPieChart extends StatelessWidget {
   }
 }
 
-// Custom painter to draw the pie chart slices
+// Custom painter for pei chart
 class _PieChartPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final center = Offset(size.width / 2, size.height / 2);
     final radius = size.width / 2;
 
-    // Data points for the fake pie chart
+    // Data
     const double usersAngle = 2.5 * pi / 2;
     const double videosAngle = pi / 2;
     const double likesAngle = pi / 2;

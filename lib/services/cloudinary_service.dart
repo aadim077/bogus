@@ -5,8 +5,8 @@ import 'package:path/path.dart' as p;
 import '../utils/constants.dart';
 
 class CloudinaryService {
-  final String cloudName = kCloudName;           // replace in constants.dart
-  final String unsignedPreset = kUnsignedPreset; // replace in constants.dart
+  final String cloudName = kCloudName;
+  final String unsignedPreset = kUnsignedPreset;
 
   Future<Map<String, dynamic>?> uploadVideo(File file) async {
     final uri = Uri.parse('https://api.cloudinary.com/v1_1/$cloudName/video/upload');
@@ -19,7 +19,7 @@ class CloudinaryService {
     if (resp.statusCode == 200) {
       return jsonDecode(resp.body) as Map<String, dynamic>;
     } else {
-      // You can log resp.body for debugging
+
       return null;
     }
   }
