@@ -1,0 +1,44 @@
+name: bogus_app
+description: Reels-like app with Firebase Auth/Firestore + Cloudinary video storage
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # ✅ Upgrade Firebase to latest stable (all must match core ^3.x)
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  cloud_functions: ^5.1.3
+  firebase_messaging: ^15.2.9
+  flutter_local_notifications: ^19.3.1
+
+  # State management
+  provider: ^6.1.2
+
+  # Networking
+  http: ^1.2.2
+
+  # Media handling
+  video_player: ^2.9.2
+  image_picker: ^1.1.2
+
+  # Prevent screenshot/screen recording
+  screen_protector: ^1.4.2
+
+  # Utilities
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0   # latest lint rules
+
+flutter:
+  uses-material-design: true

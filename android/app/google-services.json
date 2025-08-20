@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "698787980092",
+    "project_id": "bogusapp-c0d05",
+    "storage_bucket": "bogusapp-c0d05.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698787980092:android:44d5687801812d642ff439",
+        "android_client_info": {
+          "package_name": "com.example.bogus_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698787980092-h9j07h1lh69malilgg093ipj4dm5vm0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKTpv7WwOtBPhdrU3BzcBqom8de2JroNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698787980092-h9j07h1lh69malilgg093ipj4dm5vm0e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "698787980092-gcsov9cgtme8sdt4r5cile55mr3ktbf8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bogusApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
