@@ -52,7 +52,7 @@ class _UploadScreenState extends State<UploadScreen> {
     setState(() => _loading = true);
 
     try {
-      // 🔥 Upload to Cloudinary
+      //  Upload to Cloudinary
       final url = Uri.parse("https://api.cloudinary.com/v1_1/$kCloudName/video/upload");
 
       final request = http.MultipartRequest("POST", url)
@@ -73,7 +73,7 @@ class _UploadScreenState extends State<UploadScreen> {
       final videoUrl = data["secure_url"];
       final publicId = data["public_id"];
 
-      // 🔥 Save metadata to Firestore
+      // Save metadata to Firestore
       await FirestoreService().uploadVideoMetadata({
         'title': _titleC.text.trim(),
         'caption': _captionC.text.trim(),

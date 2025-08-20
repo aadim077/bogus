@@ -90,7 +90,7 @@ class _ReelItemState extends State<ReelItem> {
             return Stack(
               fit: StackFit.expand,
               children: [
-                // 🎥 Fullscreen video
+                //  Fullscreen video
                 if (_initialized)
                   FittedBox(
                     fit: BoxFit.cover,
@@ -103,7 +103,7 @@ class _ReelItemState extends State<ReelItem> {
                 else
                   const Center(child: CircularProgressIndicator()),
 
-                // 🔹 Overlay (caption + like + save buttons)
+                //  Overlay (caption + like + save buttons)
                 Positioned(
                   bottom: 0,
                   left: 0,

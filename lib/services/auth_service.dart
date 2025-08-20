@@ -42,7 +42,7 @@ class AuthService extends ChangeNotifier {
       email: email,
       password: password,
     );
-    // 👇 Save with username
+    //  Save with username
     await _db.createUser(
       cred.user!.uid,
       email,
